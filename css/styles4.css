@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.button {
+    background:whitesmoke;
+    padding:1em 1em;
+    border:gray 2px solid;
+    text-decoration:none;
+    color:darkgrey;
+    font-size:1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+.block {
+    display:block;
+    width:150px;
+    margin:0 auto;
+  }
+
+
+p {
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}

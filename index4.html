@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/styles4.css">
+        <meta name="author" content="Kohei KUSAKABE">
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <title>最終課題</title>
+    </head>
+
+    <body>
+        <h1>My blog</h1>
+        <p>じゃんけんゲーム</p>
+
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <nav id="menu">
+            <a href="index.html">ホーム</a>
+            <a href="index2.html">デスク</a>
+            <a href="index3.html">アイテム</a>
+            <a href="index4.html">ゲーム</a>
+            <a href="index5.html">お問合せ</a>
+        </nav>
+
+        <div>
+            <h2 onclick = "game(3)">あなたの手を選んでください</h2>
+     
+            <button class="block button" onclick="game(0)">グー</button>
+            <button class="block button" onclick="game(1)">チョキ</button>
+            <button class="block button" onclick="game(2)">パー</button>
+            
+    
+            <p id="you">あなた：</p>
+            <p id="enemy">相手：</p>
+            <p id="result">勝敗：</p>
+            
+        </div>
+    
+        <script src="./js/main4.js"></script>
+
+    </body>
+
+</html>
+
+<footer>
+
+</footer>
